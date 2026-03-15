@@ -1,0 +1,9 @@
+[package]
+name = "riemann-probe"
+version = "1.0.0"
+authors = ["Omar Meshal Almutairi"]
+edition = "2021"
+
+[dependencies]
+num-bigfloat = "1.6.0" # لدعم الحسابات بدقة 256-بت وأكثر
+clap = { version = "4.0", features = ["derive"] } # لمعالجة خيارات CLI

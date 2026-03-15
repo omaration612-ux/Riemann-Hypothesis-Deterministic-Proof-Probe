@@ -1,0 +1,27 @@
+[tversion] MPFR 4.2.2
+[tversion] Compiler: Clang 21.1.8
+[tversion] C standard: __STDC__ = 1, __STDC_VERSION__ = 201710L
+[tversion] __GNUC__ = 4, __GNUC_MINOR__ = 2
+[tversion] GMP: header 6.3.0, library 6.3.0
+[tversion] __GMP_CC = "gcc"
+[tversion] __GMP_CFLAGS = "-O2 -pedantic -march=armv8-a"
+[tversion] WinDLL: __GMP_LIBGMP_DLL = 0, MPFR_WIN_THREAD_SAFE_DLL = undef
+[tversion] MPFR built with the GMP build (--with-gmp-build)
+[tversion] TLS = yes, float128 = no, decimal = no, GMP internals = yes
+[tversion] Shared cache = no
+[tversion] intmax_t = yes, printf = yes, IEEE floats = yes
+[tversion] gmp_printf: hhd = yes, lld = yes, jd = yes, td = yes, Lf = yes
+[tversion] gmp_snprintf/vsnprintf on "%a" = no (buggy repl-vsnprintf.c?)
+[tversion] MPFR tuning parameters from default
+[tversion] sizeof(long) = 8, sizeof(mpfr_intmax_t) = 8, sizeof(intmax_t) = 8
+[tversion] GMP_NUMB_BITS = 64, sizeof(mp_limb_t) = 8
+[tversion] Within limb: long = y/y, intmax_t = y/y
+[tversion] _MPFR_PREC_FORMAT = 3, sizeof(mpfr_prec_t) = 8
+[tversion] _MPFR_EXP_FORMAT = 3, sizeof(mpfr_exp_t) = 8
+[tversion] sizeof(mpfr_t) = 32, sizeof(mpfr_ptr) = 8
+[tversion] Precision range: [1,9223372036854775551]
+[tversion] Max exponent range: [-4611686018427387903,4611686018427387903]
+[tversion] Generic ABI code: no
+[tversion] Enable formally proven code: no
+[tversion] Locale: C.UTF-8
+PASS tversion (exit status: 0)

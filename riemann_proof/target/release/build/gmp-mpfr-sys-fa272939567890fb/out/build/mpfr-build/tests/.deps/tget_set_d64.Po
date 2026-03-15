@@ -1,0 +1,1 @@
+tget_set_d64.o: ../../mpfr-src/tests/tget_set_d64.c

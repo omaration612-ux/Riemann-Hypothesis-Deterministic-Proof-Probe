@@ -1,0 +1,2 @@
+Error in test #40: mpfr_vfprintf printed 1 characters instead of 4
+FAIL tfprintf (exit status: 1)

@@ -1,0 +1,4 @@
+Error in check_null, i = 0
+expected r = 1, s = { 0, 0, 1 }
+got      r = 0, s = { 0, 1, 1 }
+FAIL tsprintf (exit status: 1)

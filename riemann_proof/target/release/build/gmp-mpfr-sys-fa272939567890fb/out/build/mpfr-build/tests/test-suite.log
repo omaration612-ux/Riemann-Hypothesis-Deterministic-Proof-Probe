@@ -1,0 +1,45 @@
+======================================
+   MPFR 4.2.2: tests/test-suite.log
+======================================
+
+# TOTAL: 198
+# PASS:  193
+# SKIP:  3
+# XFAIL: 0
+# FAIL:  2
+# XPASS: 0
+# ERROR: 0
+
+System information (uname -a): Linux 6.1.138-android14-11 #1 SMP PREEMPT Fri Jan 2 03:01:00 UTC 2026 aarch64
+
+.. contents:: :depth: 2
+
+FAIL: tfprintf
+==============
+
+Error in test #40: mpfr_vfprintf printed 1 characters instead of 4
+FAIL tfprintf (exit status: 1)
+
+SKIP: tget_set_d64
+==================
+
+SKIP tget_set_d64 (exit status: 77)
+
+SKIP: tget_set_d128
+===================
+
+SKIP tget_set_d128 (exit status: 77)
+
+SKIP: tset_float128
+===================
+
+SKIP tset_float128 (exit status: 77)
+
+FAIL: tsprintf
+==============
+
+Error in check_null, i = 0
+expected r = 1, s = { 0, 0, 1 }
+got      r = 0, s = { 0, 1, 1 }
+FAIL tsprintf (exit status: 1)
+

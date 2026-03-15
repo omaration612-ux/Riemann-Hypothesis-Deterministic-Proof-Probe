@@ -1,0 +1,3 @@
+[tassert] Check for good handling of assertions.
+../../mpfr-src/tests/tassert.c:32: GNU MP assertion failed: 0
+PASS tassert (exit status: 0)

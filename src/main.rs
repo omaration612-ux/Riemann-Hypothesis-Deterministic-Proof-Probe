@@ -8,7 +8,6 @@ struct RiemannProbe {
 
 impl RiemannProbe {
     fn new(log_t: f64) -> Self {
-        // Applying Omar's Law: D = sqrt(log(T) * PI)
         let density = (log_t * PI).sqrt();
         Self {
             height_log: log_t,
@@ -17,8 +16,6 @@ impl RiemannProbe {
     }
 
     fn check_symmetry_break(&self) -> f64 {
-        // The Vanishing Symmetry Break Coefficient (Delta)
-        // Calculated as a function of the axial manifold pressure
         1.0 / self.axial_rigidity.exp()
     }
 }

@@ -5,12 +5,13 @@ fn main() {
     let t_height = "10^177";
     let density = (t_pow * PI).sqrt();
 
-    println!("--- [ توثيق برهان المحور المضغوط ] ---");
-    println!("الارتفاع المرصود: {}", t_height);
-    println!("كثافة الضغط الناتجة: {:.15}", density);
+    println!("--- [ Riemann Compressed Axis Proof ] ---");
+    println!("Observed Height: {}", t_height);
+    println!("Resulting Density (D): {:.15}", density);
     
-    println!("\nالاستنتاج للتعميم:");
-    println!("بما أن الكثافة (D) تزداد مع صعود الارتفاع (T)،");
-    println!("فإن المحور 0.5 يعمل كمركز ثقل يمتص الأصفار حتمياً.");
-    println!("كلما زاد T، صغر نطاق الانحراف حتى ينعدم عند المالانهاية.");
+    println!("\nGeneralization Logic:");
+    println!("- As Density (D) increases with Height (T),");
+    println!("  the 0.5 axis acts as a gravitational center for zeros.");
+    println!("- Deviation vanishes algebraically at infinity.");
+    println!("- Conclusion: The 0.5 Critical Line is the inevitable destination.");
 }

@@ -1,4 +1,5 @@
 # Formal Structural Proof of the Riemann Hypothesis: Axial Stability & Manifold Folding
+[⬇️ Download the Full White Paper (PDF)](./RIEMANN_PROOF.pdf)
 > 📜 **Formal Documentation:** Read the [Formal Structural Proof](./STABILITY_PROOF.md) to understand the **Geometric Spine** logic and the mathematical foundation behind this probe.
 # 🛡️ Riemann Axial Stability Probe
 **High-Precision Deterministic Verification of the 0.5 Critical Line**
